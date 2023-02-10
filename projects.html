@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--***************************************************************************************************************************-->
+    <div id="sectionHome">
+        <div class="pj-top-cntr">
+        </div>
+        <div>
+            <div class="box" style="text-align:center">
+                <h1>My projects</h1>
+                <p>These are few of my static website projects that i have developed using HTML,CSS and Boot Strap</p>
+            </div>
+            <div class="box d-flex flex-row justify-content-center">
+                <div class="box" onclick="display('sectionTC')">
+                    <img class="pj-img" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png">
+                </div>
+                <div class="box" onclick="display('sectionFC')">
+                    <img class="pj-img" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-img.png">
+                </div>
+            </div>
+            <div class="box d-flex flex-row justify-content-center">
+                <div class="box" onclick="display('sectionFD')">
+                    <img class="pj-img" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png">
+                </div>
+                <div class="box" onclick="display('sectionNP')">
+                    <img class="pj-img" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png">
+                </div>
+            </div>
+            <div class="box d-flex flex-row justify-content-center">
+                <div class="box" onclick="display('sectionBS')">
+                    <img class="pj-img" src="https://nkb-backend-media-static-tenxiitian.s3.ap-south-1.amazonaws.com/tenxiitian_prod/programs/Tech+Programs/frontend-content/ccbp/coding-practice-questions/static-websites/book-store-v1.png">
+                </div>
+                <div class="box">
+                    <a href="index.html">
+                        <img class="pj-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4uhZQzttDTieNyEC8Z22uoVrtLtkQ8VxLBA&usqp=CAU">
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+    <!--***************************************************************************************************************************-->
+    <div id="sectionFC">
+        <div class="diwali-top-section">
+            <h1 class="diwali-top-section-heading">
+                Celebrate Diwali with your friends
+            </h1>
+        </div>
+        <div class="diwali-bottom-section">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="diwali-card-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/lamp-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-card-name">Diwali Air Balloon</h1>
+                    <p class="diwali-card-price">Rs 369</p>
+                </div>
+
+                <div class="diwali-card-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diya-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-card-name">Diwali - Lamp</h1>
+                    <p class="diwali-card-price">Rs 50</p>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="diwali-card-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firework-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-card-name">Sparklers</h1>
+                    <p class="diwali-card-price">Rs 150</p>
+                </div>
+
+                <div class="diwali-card-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firecracker-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-card-name">Fire Cracker</h1>
+                    <p class="diwali-card-price">Rs 560</p>
+                </div>
+            </div>
+            <button class="btn btn-primary" onclick="display('sectionHome')">Back</button>
+        </div>
+    </div>
+    <!--***************************************************************************************************************************-->
+    <div id="sectionTC">
+        <div class="tc-bg-cntr d-flex flex-column justify-content-end">
+            <div class="tc-crd">
+                <h1 class="tc-crd-h">Advance Technologies</h1>
+                <p class="tc-crd-p">Machinery and equipment developed from the application of scientific knowledge.</p>
+                <button class="tc-crd-b1">Learn more</button>
+                <button class="tc-crd-b2" onclick="display('sectionHome')">Back</button>
+            </div>
+        </div>
+    </div>
+    <!--***************************************************************************************************************************-->
+    <div id="sectionNP">
+        <div class="nw-bg-cntr d-flex flex-column justify-content-end">
+            <div class="nw-crd">
+                <p class="nw-crd-p">NEWS OF THE DAY</p>
+                <h1 class="nw-crd-h">iB Cricket announces world's first Virtual Reality Cricket League</h1>
+                <p class="nw-crd-p">iB Cricket and Viu together have announced the World’s first virtual reality cricket league featuring 12 international cricketers, who will be competing against each other for the iB Cricket Super Over League title in Mumbai. Iconic cricketers like Virender Sehwag, Suresh Raina, Brendon McCullum will be competing in the league.</p>
+                <button class="nw-crd-b" onclick="display('sectionHome')">Back</button>
+            </div>
+        </div>
+    </div>
+    <!--***************************************************************************************************************************-->
+    <div id="sectionFD">
+        <div class="fd-bg-container d-flex flex-column justify-content-end">
+            <div class="fd-crd">
+                <h1 class="fd-main-heading">Happy Meals</h1>
+                <p class="fd-para">Discover the best foods over the 1,000 restaurants</p>
+                <button class="fd-button" onclick="display('sectionHome')">Back</button>
+            </div>
+        </div>
+    </div>
+    <!--***************************************************************************************************************************-->
+
+    <!--********************************************************************************************************************************************************************-->
+
+
+    <div id="sectionBS" class="bs-cntr bs-spc">
+        <div class="bs-spc">
+            <h1 class="bs-hd" style="font-size:30px;">Popular Book</h1>
+            <div class="d-flex flex-row bs-crd">
+                <img class="bs-img" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png">
+                <div class="bs-spc">
+                    <h1 style="font-size:30px; color:#183b56;">Wings of Fire</h1>
+                    <p style="font-size:16px; font-weight:bold; color:#183b56;">Auto-Biography of DR.APJ Abdul kalam</p>
+                    <p style="font-size:16px; font-weight:bold; color:#183b56;">By Abdul Kalam</p>
+                    <button class="btn btn-primary" onclick="display('sectionWOF')">Read Now</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="bs-spc">
+            <h1 class="bs-hd">Recommended Books</h1>
+            <div class="d-flex flex-row bs-spc">
+                <img class="bs-imgs" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png">
+                <div class="bs-spc">
+                    <h1 class="bs-hd">The 3 mistakes of my life</h1>
+                    <p class="bs-pr">Indian author <br>
+                        By Chethan bhaghat</p>
+                    <button class="btn btn-primary" onclick="display('section3ML')">Read Now</button>
+                </div>
+            </div>
+            <div class="d-flex flex-row bs-spc">
+                <img class="bs-imgs" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png">
+                <div class="bs-spc">
+                    <h1 class="bs-hd">
+                        Harry Potter
+                    </h1>
+                    <p class="bs-pr">
+                        and the Sorcerer's Stone <br>
+                        by J.K.Rowling
+                    </p>
+                    <button class="btn btn-primary" onclick="display('sectionHP')">Read Now</button>
+                </div>
+            </div>
+
+        </div>
+        <button class="btn btn-primary" onclick="display('sectionHome')">Home</button>
+    </div>
+
+    <!--********************************************************************************************************************************************************************-->
+    <div id="sectionWOF" class="d-spc d-bs-cntr">
+
+        <div class="d-spc" style="text-align:center;">
+            <img class="d-bs-img" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png">
+            <h1 class="d-txt">Wings of Fire</h1>
+            <p class="d-txt">by Arun Tiwari</p>
+        </div>
+        <div class="d-spc">
+            <p class="d-txt">
+                Every common man who by his sheer grit and hard work achieves success should share his story with the rest for they may find inspiration and strength to go on, in his story. The 'Wings of Fire' is one such autobiography by visionary scientist Dr. APJ Abdul Kalam, who from very humble beginnings rose to be the President of India. The book is full of insights, personal moments and life experiences of Dr. Kalam. It gives us an understanding on his journey of success.
+            </p>
+        </div>
+        <div class="d-flex flex-row justify-content-center">
+            <button class="d-spc btn btn-warning" onclick="display('sectionBS')">Back</button>
+            <button class="d-spc btn btn-primary">Buy Now</button>
+        </div>
+    </div>
+    <!--********************************************************************************************************************************************************************-->
+    <div id="section3ML" class="d-spc d-bs-cntr">
+
+        <div class="d-spc" style="text-align:center;">
+            <img class="d-bs-img" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png">
+            <h1 class="d-txt">The 3 Mistake of my life</h1>
+            <p class="d-txt">by Chetan Bhagat</p>
+        </div>
+        <div class="d-spc">
+            <p class="d-txt">
+                The 3 Mistakes of My Life is the third novel written by Chetan Bhagat. The book was published in May 2008 and had an initial print run of 420,000. The novel follows the story of three friends and is based on the city of Ahmedabad in western India. This is the third best-selling novel by Chetan Bhagat.
+            </p>
+        </div>
+        <div class="d-flex flex-row justify-content-center">
+            <button class="d-spc btn btn-warning" onclick="display('sectionBS')">Back</button>
+            <button class="d-spc btn btn-primary">Buy Now</button>
+        </div>
+    </div>
+    <!--********************************************************************************************************************************************************************-->
+    <div id="sectionHP" class="d-spc d-bs-cntr">
+
+        <div class="d-spc" style="text-align:center;">
+            <img class="d-bs-img" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png">
+            <h1 class="d-txt">Harry Potter</h1>
+            <p class="d-txt">by J.K Rowling</p>
+        </div>
+        <div class="d-spc">
+            <p class="d-txt">
+                Harry Potter's life is miserable. His parents are dead and he's stuck with his heartless relatives, who force him to live in a tiny closet under the stairs. But his fortune changes when he receives a letter that tells him the truth about himself: he's a wizard. A mysterious visitor rescues him from his relatives and takes him to his new home, Hogwarts School of Witchcraft and Wizardry.
+            </p>
+        </div>
+        <div class="d-flex flex-row justify-content-center">
+            <button class="d-spc btn btn-warning" onclick="display('sectionBS')">Back</button>
+            <button class="d-spc btn btn-primary">Buy Now</button>
+        </div>
+    </div>
+
+    <!--********************************************************************************************************************************************************************-->
+    <!--***************************************************************************************************************************-->
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
